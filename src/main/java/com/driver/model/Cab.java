@@ -15,7 +15,7 @@ public class Cab {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int Id;
     private int perKmRate;
-    boolean available;
+    private Boolean available;
 
     @OneToOne
     @JoinColumn
